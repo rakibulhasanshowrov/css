@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#padding{
+  height: 80px;
+  width: 80px;
+  background-color: rgb(248, 237, 27);
+  padding:5px 5px 5px 5px;
+}
+#margin{
+  height: 200px;
+  width: 300px;
+  background-color: rgb(79, 222, 244);
+  padding:5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+#border{
+  height: 170px;
+  width: 350px;
+  background-color: aquamarine;
+  border: 2px dashed rgb(250, 82, 82);
+  border-radius: 25px;
+}
+#border p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
