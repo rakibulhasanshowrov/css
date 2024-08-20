@@ -1,0 +1,17 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#nav h1{
+  background-color: powderblue;
+  text-align: center;
+  text-transform: capitalize;
+}
+#inner{
+  font-size: 10px;
+  line-height: 18px;
+}
+#outer{
+  font-size: 25px;
+}

@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+}
+h3{
+  text-decoration-style: dotted;
+}
+.box{
+  height: 80px;
+  width: 500px;
+}
+#box1{
+  background-color: #dd5c5c;
+  text-align: center;
+  text-decoration: line-through;
+}
+#box2{
+  background-color: #8686ea;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: yellow;
+}
+#box3{
+  background-color: #f898d8;
+  text-align: right;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+#link{
+  text-decoration: none;
+}
+#line_height{
+  line-height: 20px;
+  background-color: bisque;
+}
+#font_size{
+  line-height: 25px;
+  background-color: rgb(28, 226, 252);
+  font-size: 13px;
+  font-weight: 800;
+  font-style: italic;
+  font-family:"Dancing Script";
+}

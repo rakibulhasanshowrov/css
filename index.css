@@ -1,0 +1,21 @@
+h1{
+  color:red
+}
+
+p{
+  color:aqua
+}
+
+#css_id{
+  color: rgba(25, 23, 23, 0.726);
+  font-weight:bold
+}
+.css_class{
+  color: rgba(25, 23, 23, 0.726);
+  font-weight:bold
+}
+
+#group_selector, h2{
+  color:blueviolet;
+  font-weight: bold;
+}

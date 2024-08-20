@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bar{
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+  color: rgba(242, 68, 9, 0.8);
+
+}
+main{
+  height: 500px;
+  background-color: blanchedalmond;
+}
+#person{
+  position: relative;
+  height: 350px;
+  width: 350px;
+  background-image: url(profile2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
