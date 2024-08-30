@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+}
+#navbar{
+  background-color: chartreuse;
+}
+.learn{
+  background-color: #f8f0f0;
+  height: 150px;
+  width: 200px;
+  margin:7px;
+  border-color: black;
+  border-style: groove;
+  position: center;
+
+}
+.container{
+  margin:5px;
+  border:2px solid yellow;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#box1{
+  background-color: rgb(51, 209, 244);
+}
+#box2{
+  background-color: rgb(148, 255, 148);
+}
