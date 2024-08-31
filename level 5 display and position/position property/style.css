@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+.box{
+  height: 50px;
+  width: 50px;
+  margin:5px;
+}
+#static{
+  position: static;
+  background-color: chartreuse;
+  font-size: 50%;
+  
+}
+#relative{
+  position: relative;
+  background-color: rgb(237, 204, 240);
+  font-size: 50%;
+  top:70px;
+  left:50px;
+}
+#absolute{
+  position: absolute;
+  top:60px;
+  background-color: rgb(247, 246, 176);
+  font-size: 50%;
+}
+#fixed{
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: rgb(237, 47, 123);
+  font-size: 50%;
+}
