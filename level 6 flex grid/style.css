@@ -39,6 +39,27 @@ header{
   margin: 3px;
   display:flex ;
   flex-direction: column;
+  align-items: center;
+}
+.container4{
+  width: 900px;
+  height: 500px;
+  background-color: rgb(204, 219, 247);
+  border: 3px solid black;
+  margin: 3px;
+  display:flex ;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container5{
+  width: 600px;
+  height: 250px;
+  background-color: rgb(204, 219, 247);
+  border: 3px solid black;
+  margin: 3px;
+  display:flex ;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .boxf{
   width: 100px;
@@ -61,4 +82,9 @@ header{
 }
 #box5{
   background-color: #d0d6f3; 
+  
+}
+#box6{
+  background-color: #f35a07; 
+  
 }
