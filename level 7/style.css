@@ -8,6 +8,9 @@ header{
   display: flex;
   justify-content: center;
 }
+div{
+  text-align: center;
+}
 #button{
   background-color: #f7f0f0;
   height: 100px;
@@ -67,12 +70,92 @@ header{
 #box1:hover{
   background-color: #ef9090;
   transform: rotate(45deg);
+  transition-duration: 2s;
+  transition-timing-function: steps(4);
 }
 #box2:hover{
-  background-color: #ef9090;
+  background-color: #edef88;
   transform: scale(2);
+  transition-duration: 5s;
 }
 #box3:hover{
-  background-color: #ef9090;
-  transform: skew(45degree);
+  background-color: #91bef1;
+  transform: skew(45deg);
+  transition-duration: 2s;
+  transition-timing-function: steps(4);
 }
+#box4:hover{
+  background-color: #dab8f7;
+  transform: translate(40px);
+  transition-duration: 2s;
+}
+
+
+#animate{
+  height: 1000px;
+  width: 100%;
+  background-color: #fefdfd;
+  border: 2px solid rgb(238, 173, 173);
+  margin: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+#animbox{
+  height: 200px;
+  width: 200px;
+  background-color: #f1f5a0;
+  border: 2px solid rgb(37, 1, 1);
+  position: relative;
+  top: 10px;
+  left: 10px;
+  animation: toptoleft 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes toptoleft {
+  from{
+  left:10px;
+  }
+  to{
+  left:1300px;
+  background-color: #f1420d;
+  }
+  
+}
+#animbox2{
+  height: 200px;
+  width: 200px;
+  background-color: #67e810;
+  border: 2px solid rgb(37, 1, 1);
+  position: relative;
+  top: 10px;
+  left: 10px;
+  margin:5px;
+  animation: toptoleftpercentage 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes toptoleftpercentage {
+  0%{left:10px}
+  50%{left:500px}
+  100%{left:1000px}
+
+}
+
+#animbox3{
+  height: 200px;
+  width: 200px;
+  background-color: #744bef;
+  border: 2px solid rgb(37, 1, 1);
+  position: relative;
+  top: 10px;
+  left: 10px;
+  margin:20px;
+  animation: toptolefttobottom 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes toptolefttobottom {
+  0%{left:10px;top:0px}
+  50%{left:500px;top:250px}
+  100%{left:1000px;top:0px}
+  }
+  
