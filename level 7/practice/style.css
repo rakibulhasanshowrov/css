@@ -1,0 +1,25 @@
+#progress-container{
+  height: 25px;
+  width: 90%;
+  background-color: rgb(232, 242, 243);
+  border: 3px solid black;
+  border-radius: 13px;
+  position: relative;
+  left: 4%;
+}
+.progress-bar{
+  height: 100%;
+  background-color: aqua;
+  border-radius: inherit;
+  animation: progress-bar-animation 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes progress-bar-animation {
+  from{
+  width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+  
+}
